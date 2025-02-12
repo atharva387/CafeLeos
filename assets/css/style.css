@@ -201,12 +201,16 @@ p {
 
 .navigation-wrap .nav-item {
     padding: 0 0.625rem;
+    background-color: #000000;
+
     transition: all 200ms linear;
 }
 
 .navbar-toggler {
     outline: unset;
     border: unset;
+    background-color: #ffffff;
+border-radius: 20%;
     box-shadow: none;
 }
 
@@ -606,11 +610,12 @@ p {
 
     .navigation-wrap .navbar-brand-img {
         height: 3.8125rem;
+        
     }
 
     .navigation-wrap {
         text-align: center;
-        background-color: var(--white-color);
+        background-color: #000000;
     }
 
     .navigation-wrap .nav-link {
