@@ -18,7 +18,7 @@
     <!-- **** Custom CSS *** -->
 
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="icon" href="assets/images/leoscafeblack.jpg">
 
 </head>
@@ -29,7 +29,7 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navigation-wrap">
-            <div class="container">
+            <div class="container" data-aos="fade-down">
                 <a class="navbar-brand" href="#">
                     <img src="assets/images/logo.png" alt="" class="logo">
                 </a>
@@ -39,7 +39,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
+                        <li class="nav-item" >
                             <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
@@ -70,11 +70,11 @@
 
     <section id="home">
         <div class="container-fluid px-0 top-banner">
-            <div class="container">
-                <div class="row">
+            <div class="container" >
+                <div class="row" >
                     <div class="col-lg-5 col-md-6">
-                        <h1>Welcome to Leo’s Cafe<br> Great Food, Great Friends, Great Times</h1>
-                        <p class="drop-in-2">Leo’s Cafe isn’t just about delicious, budget-friendly meals—it’s the perfect spot to unwind with friends. Whether you're here for a cozy coffee chat, a casual brunch, or an evening of laughter, our warm ambiance and flavorful dishes make every hangout special. Come for the food, stay for the memories!</p>
+                        <h1 data-aos="fade-right" >Welcome to Leo’s Cafe<br> Great Food, Great Friends, Great Times</h1>
+                        <p class="drop-in-2" data-aos="fade-left">Leo’s Cafe isn’t just about delicious, budget-friendly meals—it’s the perfect spot to unwind with friends. Whether you're here for a cozy coffee chat, a casual brunch, or an evening of laughter, our warm ambiance and flavorful dishes make every hangout special. Come for the food, stay for the memories!</p>
                         <!-- <div class="mt-4">
                             <button class="main-btn">Order Now <img src="assets/images/next.png" alt=""></button>
                         </div> -->
@@ -90,19 +90,19 @@
         <section class="counter-section">
             <div class="container">
                 <div class="row text-center">
-                    <div class="col-md-4 mb-lg-0 mb-md-0 mb-5">
+                    <div class="col-md-4 mb-lg-0 mb-md-0 mb-5" data-aos="zoom-in">
                         <h2>
                             <span id="count1"></span> +
                         </h2>
                         <p>CUSTOMERS</p>
                     </div>
-                    <div class="col-md-4 mb-lg-0 mb-md-0 mb-5">
+                    <div class="col-md-4 mb-lg-0 mb-md-0 mb-5" data-aos="fade-right">
                         <h2>
                             <span id="count2"></span> +
                         </h2>
                         <p>REVIEWS</p>
                     </div>
-                    <div class="col-md-4 mb-lg-0 mb-md-0 mb-5">
+                    <div class="col-md-4 mb-lg-0 mb-md-0 mb-5" data-aos="fade-right">
                         <h2>
                             <span id="count3"></span> +
                         </h2>
@@ -499,7 +499,7 @@
         </div>
     </section>
 
-        <!-- **** Section-8 FAQ Section ****
+<!-- **** Section-8 FAQ Section ****
 
         <section id="faq">
             <div class="faq wrapper">
@@ -699,6 +699,14 @@
         window.open(whatsappURL, "_blank");
     }
 </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    // Initialize AOS
+    AOS.init({
+      duration: 1200,
+    });
+    </script>
 <a href="https://www.google.com/maps/dir//Shop+No.6%2FWingA%2F2,+Cafe+Leo's,+Potnis+Parisar+SOC,+opp.+Girija+Shankar,+SOC,+Karve+Nagar,+Pune,+Maharashtra+411052/@18.4964588,73.819474,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2bf485040ce19:0xe6c345239c34a0c6!2m2!1d73.8220543!2d18.4964537?entry=ttu&g_ep=EgoyMDI1MDIwOS4wIKXMDSoASAFQAw%3D%3D" class="directions-float" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/854/854901.png" alt="Get Directions">
 </a>
