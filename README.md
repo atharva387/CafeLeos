@@ -1,7 +1,7 @@
 # ☕ CafeLeos Website (Freelance Project)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/atharva387/CafeLeos)
-![Netlify Status]([https://api.netlify.com/api/v1/badges/YOUR_NETLIFY_BADGE_ID/deploy-status](https://app.netlify.com/projects/cafeleos/deploys/6847e3fb2e6132000822cbbe))
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d609f747-20c4-427f-860d-31e58ecc8004/deploy-status)](https://app.netlify.com/projects/cafeleos/deploys)
 
 A modern, responsive, and user-friendly website built for CafeLeos to showcase their menu, ambiance, and contact info.
 
